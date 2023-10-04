@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40vw;
+}
+
+
+nav a {
+    text-decoration: none;
+    display: flex;
+    letter-spacing: .5rem;
+    color: #48007b;
+    margin-top: 5vw;
+    margin-right: 6vw ;
+}
+
+
+
+header img {
+    width: 125px;
+    height: 125px;
+}
+body {
+    background-image: url(img/imagem\ definitiva.png);
+    background-size: 100vw 100vh;
+}
